@@ -247,6 +247,21 @@ img[alt="Leahs Hero Image"]{
   padding: 3rem 0 3rem 1rem;
 }
 
+/* Table Styling*/
+th, td{
+    padding: 0.6rem 2rem;
+    margin: 0;
+    border: 0.1rem solid var(--accent-color);
+}
+
+table{
+  width: 100%;
+  margin: auto;
+  margin-top: 2rem;
+  color: var(--primary);
+  font-family: "Poppins",sans-serif;
+}
+
 /* Desktop screens */
 @media (min-width: 1024px) {
 .navbar {
