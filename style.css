@@ -97,7 +97,7 @@ img[alt="Leah's Logo"]{
 .menu a {
     padding: 1rem;
     color: var(--text-color);
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .menu a i{
@@ -292,12 +292,44 @@ table i {
   font-size: 1.5rem;
 }
 
+table a{
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+table a:hover{
+  color: var(--accent-color);
+}
+
 /* About Section */
 .about-section{
   padding: 3rem 0 3rem 1rem;
 }
 
 .about-section .container{
+  padding-left: 1.4rem;
+}
+
+.about-text{
+  width: 90%;
+}
+
+.about-text p{
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.about-text span{
+  color: var(--accent-color);
+  font-weight: 700;
+}
+
+/* Contact Section */
+.contact-section{
+  padding: 3rem 0 3rem 1rem;
+}
+
+.contact-section .container{
   padding-left: 1.4rem;
 }
 
@@ -443,6 +475,15 @@ ul {
 .about-section .container{
   padding: 0.5rem 4rem 0.5rem 3rem;
 }
+
+.about-text{
+  width: 100%;
+}
+
+/* Contact Section */
+.contact-section .container{
+  padding: 0.5rem 4rem 0.5rem 3rem;
+}
 }
 
 /* Tablet screens */
@@ -470,6 +511,11 @@ ul {
 }
 
 table{
+  width: 96%;
+}
+
+/* About Section */
+.about-text{
   width: 96%;
 }
 }
