@@ -400,7 +400,6 @@ input:focus, textarea:focus{
   display: flex;
   width: 90%;
   justify-content: space-between;
-  margin-bottom: 2rem;
 }
 
 .contact-buttons button:hover{
@@ -432,6 +431,10 @@ input:focus, textarea:focus{
 
 .footer-nav a:hover{
   color: var(--accent-color);
+}
+
+.footer-nav .social-icons a{
+  padding: 0 1.2rem;
 }
 
 /* Desktop screens */
